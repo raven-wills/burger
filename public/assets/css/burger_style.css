@@ -6,3 +6,9 @@ body {
 ul {
   list-style: none;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
