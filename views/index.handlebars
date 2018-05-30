@@ -3,12 +3,12 @@
 <div class="flex-container">
     <div>
         <ul class="notDevoured">
-            {{#each burgers}} {{#unless devoured}} {{>burgers/burger-block}} {{/unless}} {{/each}}
+            <img src="/assets/img/burger.png" alt="burger" class="burgerPic"> {{#each burgers}} {{#unless devoured}} {{>burgers/burger-block}} {{/unless}} {{/each}}
         </ul>
     </div>
     <div>
         <ul class="Devoured">
-            {{#each burgers}} {{#if devoured}} {{>burgers/burger-block}} {{/if}} {{/each}}
+            <img src="/assets/img/burger_bitten.png" alt="bitten burger" class="burgerPic"> {{#each burgers}} {{#if devoured}} {{>burgers/burger-block}} {{/if}} {{/each}}
         </ul>
     </div>
 </div>

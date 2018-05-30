@@ -9,6 +9,10 @@ ul {
   list-style: none;
 }
 
+.burgerPic {
+  height: 3em;
+}
+
 .text {
   font-size: 20px;
 }
